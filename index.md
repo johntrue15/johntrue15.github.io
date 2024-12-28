@@ -4,14 +4,6 @@ title: "NoCTURN NSF X-ray Blog"
 ---
 
 ## About NSF NoCTURN
-
-The **NSF NoCTURN** initiative drives forward-thinking research at the intersection of **advanced imaging**, **data security**, and **digital preservation**. Our mission is to ensure that museum artifacts, natural history specimens, and cultural treasures remain:
-
-- **Accessible** for researchers, educators, and the public.  
-- **Comprehensible** through in-depth imaging and analysis.  
-- **Protected** with state-of-the-art security measures.
-
-## Who we are: 
 - We are a FAIROS Research Coordination Network. Mirroring NSF’s “10 Big Ideas” of Convergence Research the Non-Clinical Tomography Users Research Network (NoCTURN) will leverage input from a broad community of tomography educators, researchers, and industry stakeholders to propose improvements to data handling that cut across scientific disciplines.
 - Our primary goal is to develop practical recommendations that link today’s tomography data with tomorrow’s tomography discoveries. 
 
