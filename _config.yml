@@ -1,0 +1,16 @@
+# Site settings
+title: "X-ray Postdoc Adventures"
+description: "Advancing Museum Imaging Technology and Security at Florida Museum"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://<username>.github.io" # replace with your GitHub Pages URL
+
+# Default settings for the site
+theme: minima
+
+author:
+  name: "Your Name"
+  email: "your_email@example.com"
+
+# Build settings
+markdown: kramdown
+plugins: [jekyll-feed, jekyll-seo-tag]
