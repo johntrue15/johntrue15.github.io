@@ -1,16 +1,31 @@
-# Site settings
-title: "X-ray Postdoc Adventures"
-description: "Advancing Museum Imaging Technology and Security at Florida Museum"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://<username>.github.io" # replace with your GitHub Pages URL
+# _config.yml
+title: "NOCTURN X-ray Blog"
+description: "Advancing Museum Imaging Technology & Security"
+baseurl: ""
+url: "https:///johntrue15.github.io" # Replace with your GitHub Pages URL
 
-# Default settings for the site
+# Jekyll theme
+# If you want to keep it simple, you can start with the default 'minima' theme
 theme: minima
 
 author:
   name: "Your Name"
   email: "your_email@example.com"
 
-# Build settings
-markdown: kramdown
-plugins: [jekyll-feed, jekyll-seo-tag]
+# Plugins (supported by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 10   # Show 10 posts per page
+paginate_path: "/page:num/"
+
+# Permalinks for your posts
+permalink: /:year/:month/:day/:title/
+
+# Exclude directories or files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
