@@ -8,6 +8,15 @@ url: "https:///johntrue15.github.io" # Replace with your GitHub Pages URL
 # If you want to keep it simple, you can start with the default 'minima' theme
 theme: minima
 
+nav:
+  - name: "Home"
+    url: "/"
+  - name: "About"
+    url: "/about/"
+  - name: "Blog"
+    url: "/blog/"
+
+
 author:
   name: "John True Jr."
   email: "jtrue15@ufl.edu"
