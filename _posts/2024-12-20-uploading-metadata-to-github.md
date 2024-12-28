@@ -1,0 +1,175 @@
+---
+layout: default
+title: "Uploading Metadata to GitHub Releases"
+date: 2024-12-20
+---
+
+## Uploading Metadata to GitHub Releases Using Raspberry Pi Devices
+
+After parsing and normalizing metadata from X-ray computed tomography (CT) machines, the next step is to securely store this information. GitHub Releases is an ideal solution for version-controlled storage, enabling metadata to be easily accessed and shared across distributed facilities.
+
+This blog will walk you through the process of preparing your Raspberry Pi, automating uploads to GitHub, and managing metadata using GitHub Releases.
+
+---
+
+### Why Use GitHub Releases?
+
+GitHub Releases provide a robust solution for:
+- **Version Control**: Track changes in metadata over time with clear version tags.
+- **Accessibility**: Centralized storage that’s easy to retrieve for downstream applications.
+- **Automation**: Integrates seamlessly with GitHub Actions for post-upload workflows.
+
+---
+
+### Setting Up the Raspberry Pi
+
+Before we automate uploads, ensure the Raspberry Pi is ready with the required tools:
+
+#### 1. Install GitHub CLI
+GitHub CLI (`gh`) is a powerful tool for interacting with GitHub repositories directly from the command line.
+
+To install it, run:
+```bash
+sudo apt update
+sudo apt install gh
+```
+
+### Setting Up GitHub CLI on Raspberry Pi
+
+#### 1. Verify the Installation
+
+After installing GitHub CLI (`gh`), verify the installation to ensure it’s working properly:
+
+```bash
+gh --version
+```
+
+### 2. Authenticate with GitHub
+
+Authenticate your Raspberry Pi to interact with GitHub:
+
+```bash
+gh auth login
+```
+
+You’ll be prompted to log in using a web browser or a device code. Ensure you have the necessary permissions to create releases in your target repository.
+
+### 3. Preparing Metadata for Upload
+Ensure the metadata is saved in a structured format like JSON or CSV. For example:
+
+```json
+[
+  {
+    "PatientID": "12345",
+    "StudyDate": "2024-12-25",
+    "Modality": "CT",
+    "InstitutionName": "Branch A"
+  },
+  {
+    "PatientID": "67890",
+    "StudyDate": "2024-12-26",
+    "Modality": "CT",
+    "InstitutionName": "Branch B"
+  }
+]
+```
+Save this file as `metadata.json` for upload.
+
+### 4. Automating the Upload Process
+Create a Bash script to automate the release creation and metadata upload.
+
+**Example Script: Upload Metadata to GitHub Releases**
+
+```bash
+#!/bin/bash
+
+# Configuration
+REPO="your-org/your-repo" # Replace with your GitHub repository
+TAG="metadata-$(date +%Y%m%d)" # Generate a unique tag for the release
+FILENAME="metadata.json" # Metadata file to upload
+DESCRIPTION="Metadata upload for $(date)" # Release description
+
+# Create a new GitHub release and upload the metadata
+gh release create "$TAG" "$FILENAME" -R "$REPO" -t "$TAG" -n "$DESCRIPTION"
+
+# Confirm success
+if [ $? -eq 0 ]; then
+    echo "Metadata successfully uploaded to GitHub Release: $TAG"
+else
+    echo "Error: Failed to upload metadata"
+fi
+```
+
+### 5. Setting Up the Repository
+
+#### 1. Create a GitHub Repository:
+
+- Log in to GitHub and create a new repository (public or private).
+- Clone the repository onto your Raspberry Pi:
+```bash
+git clone https://github.com/your-org/your-repo.git
+```
+
+
+#### 2. Enable Releases:
+
+- Go to the "Releases" section of your repository.
+- Ensure the repository is configured to allow uploading release assets.
+### 6. Testing the Workflow
+
+#### 1. Place your `metadata.json` file in the same directory as the Bash script.
+#### 2. Run the script:
+
+``` bash
+./upload_metadata.sh
+```
+
+#### 3. Verify the release on GitHub:
+
+- Navigate to your repository → Releases → Confirm the new release and the attached metadata.json.
+
+### 7. Benefits of Using GitHub Releases
+
+- **Structured Storage**: Each release is tagged, making it easy to reference specific versions.
+- **Built-in Metadata**: Release descriptions and tags provide additional context for uploaded files.
+- **Integration Ready**: GitHub Releases integrate with GitHub Actions, enabling automated post-upload tasks.
+
+### Challenges and Solutions
+
+#### Challenge 1: Authentication Issues
+Users may face issues authenticating the Raspberry Pi to GitHub.
+
+**Solution**:
+- Use a Personal Access Token (PAT) with the required permissions.
+- Store the PAT securely using environment variables:
+  ```bash
+  export GH_TOKEN="your-personal-access-token"
+  ```
+
+  
+#### Challenge 2: Large Metadata Files
+Large files can lead to upload failures or timeout errors.
+
+**Solution**:
+
+- Compress the metadata file before upload:
+```bash
+gzip metadata.json
+```
+
+- Split large metadata into smaller files if necessary to meet GitHub’s size limits.
+
+
+### What’s Next?
+
+With metadata successfully uploaded to GitHub Releases, the next step is to distribute it to external systems or AI models for analysis. In the next post, we’ll explore how to use GitHub Actions to automate this distribution process.
+
+> **Continue Reading**: [Using GitHub Actions to Distribute Metadata](distributing-metadata-with-github-actions.md)
+
+---
+
+### References
+
+- [GitHub CLI Documentation](https://cli.github.com/)
+- [Creating a GitHub Release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+- [Bash Scripting Basics](https://www.gnu.org/software/bash/manual/)
