@@ -2,12 +2,12 @@
 layout: post
 title: "Exploring Hidden Wonders: My Journey as an X-ray Postdoc Researcher"
 date: 2024-12-28
-author: "Your Name"
+author: "John True"
 ---
 
 # Hello from Florida Museum!
 
-Welcome to my corner on the web! I’m **[Your Name]**, an X-ray postdoc researcher based at the Florida Museum. My work is supported by the [NSF NOCTURN](https://www.nsf.gov/) program, where we are pushing the boundaries of **advanced museum imaging technology** and **security**.
+Welcome to my corner on the web! I’m **John True Jr.**, an X-ray postdoc researcher based at the Florida Museum. My work is supported by the [NSF NOCTURN](https://www.nsf.gov/) program, where we are pushing the boundaries of **advanced museum imaging technology** and **security**.
 
 ## What I Do
 
@@ -27,7 +27,7 @@ Museums are guardians of our cultural and natural heritage. By advancing imaging
 
 ## Get in Touch
 
-I’m always excited to chat about X-ray imaging, digital security, or any new research collaborations. You can find me on [LinkedIn](#) or reach me at [youremail@example.com](mailto:youremail@example.com). 
+I’m always excited to chat about X-ray imaging, digital security, or any new research collaborations. You can find me on [LinkedIn](#) or reach me at [jtrue15@ufl.edu](mailto:jtrue15@ufl.edu). 
 
 Thanks for visiting, and stay tuned for more updates on my research adventures!
 
