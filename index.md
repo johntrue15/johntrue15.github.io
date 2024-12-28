@@ -10,6 +10,7 @@ This is the home page for the **NOCTURN Automation Blog**. We share updates on:
 - [Using Raspberry Pi devices to parse Metadata from X-ray machines](https://github.com/johntrue15/NOCTURN-X-ray-repo)
 - [Creating GitHub branches for X-ray facilities to store their metadata with releases](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/agent)
 - [Utilizing metadata through GitHub Actions to connect with external sources](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/.github)
+- - [Configuring Cursor to indefinitely maintain and upgrade this codebase and blog](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/.github/cursor)
 
 
 ---
