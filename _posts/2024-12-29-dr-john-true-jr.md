@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Meet Dr. John True Jr."
 date: 2024-12-29
 author: "Your Name"
