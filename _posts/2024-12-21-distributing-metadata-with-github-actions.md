@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Using GitHub Actions to Distribute Metadata"
-date: 2024-12-28
+date: 2024-12-21
 ---
 
 ## Using GitHub Actions to Distribute Metadata to External Systems or AI
