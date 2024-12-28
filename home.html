@@ -1,0 +1,40 @@
+<!-- _layouts/home.html -->
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+  <main class="container">
+    <h1>{{ page.title | default: site.title }}</h1>
+    <p>{{ site.description }}</p>
+
+    <!-- Blog Post Listing -->
+    {% if paginator.posts %}
+      {% for post in paginator.posts %}
+        <article>
+          <h2>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h2>
+          <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+          <p>{{ post.excerpt }}</p>
+        </article>
+      {% endfor %}
+
+      <!-- Pagination -->
+      <nav>
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | relative_url }}">Newer Posts</a>
+        {% endif %}
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | relative_url }}">Older Posts</a>
+        {% endif %}
+      </nav>
+    {% else %}
+      <p>No posts yet. Check back soon!</p>
+    {% endif %}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
