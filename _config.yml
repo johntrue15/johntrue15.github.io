@@ -1,5 +1,5 @@
 # _config.yml
-title: "NOCTURN X-ray Blog"
+title: "NOCTURN Automation Blog"
 description: "Advancing Museum Imaging Technology & Security"
 baseurl: ""
 url: "https:///johntrue15.github.io" # Replace with your GitHub Pages URL
@@ -9,8 +9,8 @@ url: "https:///johntrue15.github.io" # Replace with your GitHub Pages URL
 theme: minima
 
 author:
-  name: "Your Name"
-  email: "your_email@example.com"
+  name: "John True Jr."
+  email: "jtrue15@ufl.edu"
 
 # Plugins (supported by GitHub Pages)
 plugins:
