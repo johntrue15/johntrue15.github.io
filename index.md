@@ -1,7 +1,9 @@
 ---
-layout: home
-title: "NoCTURN NSF X-ray Blog"
+layout: default
+title: "About"
+permalink: /about/
 ---
+
 
 ## About NSF NoCTURN
 - We are a FAIROS Research Coordination Network. Mirroring NSF’s “10 Big Ideas” of Convergence Research the Non-Clinical Tomography Users Research Network (NoCTURN) will leverage input from a broad community of tomography educators, researchers, and industry stakeholders to propose improvements to data handling that cut across scientific disciplines.
