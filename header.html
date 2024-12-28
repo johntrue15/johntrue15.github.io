@@ -1,17 +1,19 @@
-<!-- _layouts/default.html -->
----
-layout: null
----
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  {% include head.html %}
-</head>
-<body>
-  {% include header.html %}
-    <main class="container">
-      {{ content }}
-    </main>
-  {% include footer.html %}
-</body>
-</html>
+<!-- _includes/header.html -->
+<header>
+  <!-- Site Title -->
+  <div class="site-title">
+    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/about' | relative_url }}">About</a></li>
+      <li><a href="https://www.nsf.gov/">NSF NOCTURN</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Horizontal rule for a visual separator -->
+<hr>
