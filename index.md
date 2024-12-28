@@ -6,9 +6,9 @@ title: "Home"
 # Welcome to the NOCTURN Automation Blog
 
 This is the home page for the NOCTURN Automation Blog. We share updates on:
-- Museum informatics
-- Imaging technology
-- Raspberry Pi projects for automated metadata
+- Using Raspberry Pi devices to parse Metadata from X-ray machines
+- Creating Github branches for X-ray facilities to store their metadata with releases
+- Utilizing metadata through Github Actions to connect with external sources
 
 ---
 
