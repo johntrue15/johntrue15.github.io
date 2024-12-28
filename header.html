@@ -1,13 +1,17 @@
-<!-- _includes/header.html -->
-<header>
-  <div class="site-title">
-    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-  </div>
-  <nav>
-    <!-- Add your links here -->
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/about' | relative_url }}">About</a>
-    <a href="https://www.nsf.gov/">NSF NOCTURN</a>
-  </nav>
-</header>
-<hr>
+<!-- _layouts/default.html -->
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% include header.html %}
+    <main class="container">
+      {{ content }}
+    </main>
+  {% include footer.html %}
+</body>
+</html>
