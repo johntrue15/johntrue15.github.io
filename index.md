@@ -10,7 +10,7 @@ This is the home page for the **NOCTURN Automation Blog**. We share updates on:
 - TRL 4 [Using Raspberry Pi devices to parse Metadata from X-ray machines](https://github.com/johntrue15/NOCTURN-X-ray-repo)
 - TRL 3 [Creating GitHub branches for X-ray facilities to store their metadata with releases](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/agent)
 - TRL 2 [Utilizing metadata through GitHub Actions to connect with external sources](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/.github)
-- TRL 3 [Configuring Cursor to indefinitely maintain and upgrade this codebase and blog](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/.github/cursor)
+- TRL 3 [Configuring Cursor to maintain and upgrade these repositories and blogs](https://github.com/johntrue15/NOCTURN-X-ray-repo/tree/main/.github/cursor)
 
 `See TRL Chart at:` [NASA Technology Readiness Levels](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/technology-readiness-levels/)
 
