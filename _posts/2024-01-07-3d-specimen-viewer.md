@@ -4,6 +4,14 @@ title: "3D Specimen Viewer Example"
 date: 2024-01-07
 ---
 
+# TODO for Today
+
+## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> PASS ARTIFACTS to (Slices to Text) or (Volume to Text) --> Setup Images to Text Release
+### Currently finished 2D3D Check and works for 2D slices
+### Need to test 3D saving of images
+### Build in 2D/3D Passing to OpenAI
+### Develop Images to Text Release
+
 # Interactive 3D Specimen Viewer
 
 Below you can find an interactive 3D viewer showing a specimen from MorphoSource. This viewer allows you to examine the specimen from different angles and zoom levels.
