@@ -11,7 +11,7 @@ date: 2024-01-07
 ### Need to test 3D saving of images (COMPLETED)
 #### Pass a 3D url to see if runs (COMPLETED https://www.morphosource.org/concern/media/000699508?locale=en)
 #### setup saving of artifacts for 2D and 3D (COMPLETED)
-#### NEED TO FIX 3D MESH BLANK SCREEN ERROR
+#### NEED TO FIX 3D MESH BLANK SCREEN ERROR (IN PROGRESS test_3d_screenshot.py + .yml)
 #### pass artifacts to images_to_text.py and .yml 
 ### Build in 2D/3D Passing to OpenAI
 #### modify ct_to_text.yml to be images_to_text.yml
