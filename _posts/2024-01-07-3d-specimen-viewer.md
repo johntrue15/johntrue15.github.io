@@ -4,6 +4,21 @@ title: "3D Specimen Viewer Example"
 date: 2024-01-07
 ---
 
+# Today's Output:
+## Fixed the issue of 3D Mesh not loading --> Created end to end morphosurce post --> error handling --> CT Analysis using 4 photos
+## Integrated 2D slices pictures into URL Check and Error Handling Flow
+### Commented out create release due to error posting output of 2D slice screenshot as artifacts
+
+
+
+# ONGOING
+## Integrate 2D slices to Open AI for analysis
+## Enable checking of previous release prior to 2D/3D Check
+## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> Images to Text --> RELEASES: Morphosource_Updates, Metadata_to_Text, Images_to_text
+## Confirm photos are being passed to OpenAI
+## Organize Github Scripts and .yml into Tests
+
+
 # TODO for Today
 
 ## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> PASS ARTIFACTS to (Slices to Text) or (Volume to Text) --> Setup Images to Text Release
@@ -14,16 +29,16 @@ date: 2024-01-07
 #### NEED TO FIX 3D MESH BLANK SCREEN ERROR (IN PROGRESS test_3d_screenshot.py + .yml)
 #### pass artifacts to images_to_text.py and .yml (IN PROGRESS test_3d_screenshot_prompt.yml)
 ### Build in 3D Passing to OpenAI (IN PROGRESS test_3d_screenshot_prompt.yml)
-### Build in 2D Passing to OpenAI
-### Build 2D test_2d_screenshot.yml
-### Build 2D test_2d_screenshot_prompt.yml
-#### modify ct_to_text.yml to be images_to_text.yml
-#### run on completiton of take screenshots
-#### Fetch latest release logic
+### 🔴 Build in 2D Passing to OpenAI
+### 🔴 Build 2D test_2d_screenshot.yml
+### 🔴 Build 2D test_2d_screenshot_prompt.yml
+#### 🔴 modify ct_to_text.yml to be images_to_text.yml
+#### 🔴 run on completiton of take screenshots
+#### 🔴 Fetch latest release logic
 #### modify ct_to_text.py to be images_to_text.py (INPROGRESS created analyze_ct_images.py)
 #### how to pass images from artifacts to ChatGPT (INPROGRESS test_3d_screenshot_prompt.yml)
 ### Develop Images to Text Release                (INPROGRESS test_3d_screenshot_prompt.yml)
-## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> Images to Text --> RELEASES: Morphosource_Updates, Metadata_to_Text, Images_to_text
+## 🔴 Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> Images to Text --> RELEASES: Morphosource_Updates, Metadata_to_Text, Images_to_text
 
 # Interactive 3D Specimen Viewer
 
