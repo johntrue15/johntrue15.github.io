@@ -8,8 +8,8 @@ date: 2024-01-07
 
 ## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> PASS ARTIFACTS to (Slices to Text) or (Volume to Text) --> Setup Images to Text Release
 ### Currently finished 2D3D Check and works for 2D slices
-### Need to test 3D saving of images
-#### Pass a 3D url to see if runs
+### Need to test 3D saving of images (in progress)
+#### Pass a 3D url to see if runs in progress https://www.morphosource.org/concern/media/000699508?locale=en)
 #### setup saving of artifacts for 2D and 3D
 #### pass artifacts to images_to_text.py and .yml
 ### Build in 2D/3D Passing to OpenAI
@@ -19,6 +19,7 @@ date: 2024-01-07
 #### modify ct_to_text.py to be images_to_text.py
 #### how to pass images from artifacts to ChatGPT
 ### Develop Images to Text Release
+## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> Images to Text
 
 # Interactive 3D Specimen Viewer
 
