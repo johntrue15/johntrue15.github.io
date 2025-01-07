@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "3D Specimen Viewer Example"
-date: 2024-01-06
+date: 2024-01-07
 ---
 
 # Interactive 3D Specimen Viewer
@@ -10,7 +10,7 @@ Below you can find an interactive 3D viewer showing a specimen from MorphoSource
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe 
-    src="[https://www.morphosource.org/uv.html#?manifest=/manifests/447772d0-74cb-472b-b443-2426f271a2c3&c=0&m=0&cv=0](https://www.morphosource.org/uv/uv.html#?manifest=/manifests/485c8b4b-3365-401c-9796-a7ab8ceb65f0&config=https://www.morphosource.org/uv/uv-config.json)"
+    src="https://www.morphosource.org/uv.html#?manifest=/manifests/447772d0-74cb-472b-b443-2426f271a2c3&c=0&m=0&cv=0"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allowfullscreen>
