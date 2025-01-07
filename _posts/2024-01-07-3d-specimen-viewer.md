@@ -12,14 +12,17 @@ date: 2024-01-07
 #### Pass a 3D url to see if runs (COMPLETED https://www.morphosource.org/concern/media/000699508?locale=en)
 #### setup saving of artifacts for 2D and 3D (COMPLETED)
 #### NEED TO FIX 3D MESH BLANK SCREEN ERROR (IN PROGRESS test_3d_screenshot.py + .yml)
-#### pass artifacts to images_to_text.py and .yml 
-### Build in 2D/3D Passing to OpenAI
+#### pass artifacts to images_to_text.py and .yml (IN PROGRESS test_3d_screenshot_prompt.yml)
+### Build in 3D Passing to OpenAI (IN PROGRESS test_3d_screenshot_prompt.yml)
+### Build in 2D Passing to OpenAI
+### Build 2D test_2d_screenshot.yml
+### Build 2D test_2d_screenshot_prompt.yml
 #### modify ct_to_text.yml to be images_to_text.yml
 #### run on completiton of take screenshots
 #### Fetch latest release logic
-#### modify ct_to_text.py to be images_to_text.py
-#### how to pass images from artifacts to ChatGPT
-### Develop Images to Text Release
+#### modify ct_to_text.py to be images_to_text.py (INPROGRESS created analyze_ct_images.py)
+#### how to pass images from artifacts to ChatGPT (INPROGRESS test_3d_screenshot_prompt.yml)
+### Develop Images to Text Release                (INPROGRESS test_3d_screenshot_prompt.yml)
 ## Parse Morphosource --> CT to Text --> URL check, 2D3D_check --> Take Screenshots --> Images to Text --> RELEASES: Morphosource_Updates, Metadata_to_Text, Images_to_text
 
 # Interactive 3D Specimen Viewer
