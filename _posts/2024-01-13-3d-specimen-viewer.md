@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "3D Specimen Viewer Example"
-date: 2024-01-06
+title: "Embedding 3D Specimen Viewer into a Blog Post"
+date: 2024-01-13
 ---
 
 # Interactive 3D Specimen Viewer
