@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "3D Specimen Viewer Example"
-date: 2024-01-07
+title: "Daily Progress Report (Draft)"
+date: 2024-01-06
 ---
 
 # Today's Output:
