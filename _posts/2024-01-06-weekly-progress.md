@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Daily Progress Report (Draft)"
+title: "Weekly Progress Report (Draft)"
 date: 2024-01-06
 ---
 
