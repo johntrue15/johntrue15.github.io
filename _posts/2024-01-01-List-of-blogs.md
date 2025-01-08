@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "List of Blog Posts"
-date: 2025-01-07
+date: 2024-01-07
 ---
 
 ## Legend 
