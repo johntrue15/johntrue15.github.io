@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Daily Progress Report - CT Image Processing Pipeline"
+title: "Weekly Progress Report"
 date: 2025-01-06
 ---
 
