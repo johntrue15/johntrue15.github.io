@@ -54,7 +54,7 @@ graph LR
    - Develop release fetching logic
 
 ## Architecture Overview
-![Pipeline Architecture](images/pipeline_architecture.png)
+![Pipeline Architecture](<img src="/docs/assets/Workflow.png" alt="drawing" width="200"/>)
 
 ## Next Steps
 Priority items for next session:
