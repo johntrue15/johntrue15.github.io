@@ -29,8 +29,8 @@ Then some checks are required:
 ### 3D Mesh Processing
 Currently debugging the 3D mesh visualization component which is showing a blank screen error.
 
-![3D Mesh Debug Screenshot](images/3d_mesh_debug.png)
-*Current state of 3D mesh rendering issue*
+<img src="/docs/assets/2DDebug.png" alt="drawing" width="2000"/>
+*Current state of 2D Slices rendering issue*
 
 ### Integration with OpenAI
 Working on establishing the pipeline to pass processed images to ChatGPT for analysis:
@@ -54,7 +54,7 @@ graph LR
    - Develop release fetching logic
 
 ## Architecture Overview
-![Pipeline Architecture](<img src="/docs/assets/Workflow.png" alt="drawing" width="200"/>)
+<img src="/docs/assets/Workflow.png" alt="drawing" width="2000"/>
 
 ## Next Steps
 Priority items for next session:
