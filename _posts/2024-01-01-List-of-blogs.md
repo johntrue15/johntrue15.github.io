@@ -28,19 +28,19 @@ date: 2024-01-07
 # New Morphosource --> Github Release
 
 
-##  Setting up Github Actions & Repo (secrets, .github folders, runtime workflow)
-##  Inspect Element to find page features
-##  Pulling Metadata from Morphosource
-##  Parse Morphosource Workflow Development
-## Github Actions to Update last_count.txt
-## Creating a Release when new Morphosource data is found
-## CT to Text Workflow Development
-## Challenges Developing CT to Text in Production (AI Generation limited to
-## Developing Microservices (Parse Morphosource and CT to Text)
-## Using Sellenium/Chrome to Analyze Media
-## 2D vs. 3D Challenges High Level
-## Integrating Slices Scrolling for 2D
-## Integrating Orientation Adjustments for 3D
+## ✅ Setting up Github Actions & Repo (secrets, .github folders, runtime workflow)
+## ✅ Inspect Element to find page features
+## ✅ Pulling Metadata from Morphosource
+## ✅ Parse Morphosource Workflow Development
+## ✅ Github Actions to Update last_count.txt
+## ✅ Creating a Release when new Morphosource data is found
+## ✅ CT to Text Workflow Development
+## ✅ Challenges Developing CT to Text in Production (AI Generation limited to
+## ✅ Developing Microservices (Parse Morphosource and CT to Text)
+## ✅ Using Sellenium/Chrome to Analyze Media
+## ✅ 2D vs. 3D Challenges High Level
+## ✅ Integrating Slices Scrolling for 2D
+## ✅ Integrating Orientation Adjustments for 3D
 ## Creating a Microservice for 2D/3D media to OpenAI
 ## Challenges with 2D Specific
 ## Challenges with 3D Specific
