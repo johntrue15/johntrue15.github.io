@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Daily Progress Report - CT Image Processing Pipeline"
+date: 2025-01-06
+---
+
+
+
 # Daily Progress Report - CT Image Processing Pipeline
 
 ## Overview
