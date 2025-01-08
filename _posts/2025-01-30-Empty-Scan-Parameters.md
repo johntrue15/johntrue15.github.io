@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "We want to automate the tedious filling out of metadata"
-date: 2025-01-01
+date: 2025-01-30
 author: "NOCTURN"
 ---
 
