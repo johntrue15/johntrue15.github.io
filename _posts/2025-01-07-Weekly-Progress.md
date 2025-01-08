@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Weekly Progress Report"
-date: 2025-01-06
+date: 2025-01-07
 ---
 
 
 
-# Daily Progress Report - CT Image Processing Pipeline
+# Weekly Progress Report - January 1st -- 7th
 
 ## Overview
 Today's work focused on enhancing the CT image processing pipeline, particularly around 3D mesh handling and setting up the infrastructure for both 2D and 3D image analysis workflows.
